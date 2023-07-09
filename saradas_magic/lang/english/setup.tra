@@ -358,9 +358,9 @@ HP 170, AC -8, THAC0 -7, Saving Throws 4/6/4/8/6
 5 Attacks Per Round, 2d6+16 Piercing Damage (Claws, Bite, & Tail +4)
 
 Combat Abilities (20% chance each):
-Disease: creatures struck by a pit fiend’s bite attack must save vs. death at -4 or be infected with a vile disease known as devil chills, losing 2 points of strength after an incubation period of 12 hours
-Poison: a pit fiend’s bite injects a lethal poison which inflicts 10 points of damage every second for 2 rounds unless a save vs. poison at -4 penalty is made
-Constrict: creatures struck by the pit fiend’s tail must save vs. death at -4 to avoid being stunned for 1 round
+Disease: creatures struck by a pit fiendï¿½s bite attack must save vs. death at -4 or be infected with a vile disease known as devil chills, losing 2 points of strength after an incubation period of 12 hours
+Poison: a pit fiendï¿½s bite injects a lethal poison which inflicts 10 points of damage every second for 2 rounds unless a save vs. poison at -4 penalty is made
+Constrict: creatures struck by the pit fiendï¿½s tail must save vs. death at -4 to avoid being stunned for 1 round
 
 Special Qualities:
 Immune to weapons lower than +3 enchantment
@@ -493,7 +493,7 @@ FANATIC STATISTICS:
 -Immunity to charm and confusion effects
 
 AFTER EFFECTS:
-~Each fanatic is slain once the spell's duration expires unless it succeeds on a separate save vs. spell at a -5 penalty.  This is a death effect, and any ability which prevents death effects also prevents this death effect.
+-Each fanatic is slain once the spell's duration expires unless it succeeds on a separate save vs. spell at a -5 penalty.  This is a death effect, and any ability which prevents death effects also prevents this death effect.~
 
 //                           //
 //This is my revised version.//
@@ -531,7 +531,7 @@ AFTER EFFECTS:
 
 //"Legion of Shadows" - the default name - may be an allusion to Batman's League of Shadows, but since Shadows are also necromantic creatures in BG2, I renamed the spell to "Illusory Legion."  This clarity may be a slight rewrite, but the original was ambiguous enough that I chose this interpretation.
 @35=~Illusory Legion~
-@36=~~Illusory Legion
+@36=~Illusory Legion
 School: Illusion
 Level: Epic
 Range: 30'
@@ -751,11 +751,11 @@ Crushing, Slashing, Piercing, & Missile Resistance 30%
 Spellcasting is allowed in this form
 
 Also in this form, you gain access to these abilities:
-Dragon Fear: All foes within 16’ of you who fail a save vs. spell at -6 panic for 1 turn.  Ignores magic resistance.
+Dragon Fear: All foes within 16ï¿½ of you who fail a save vs. spell at -6 panic for 1 turn.  Ignores magic resistance.
 
-Lower Fire Resistance: All foes within 16’ of you who fail a save vs. spell at -6 take a -50% penalty to their fire resistance for 10 rounds.  This effect ignores magic resistance and doesn’t stack with itself on a subject.
+Lower Fire Resistance: All foes within 16ï¿½ of you who fail a save vs. spell at -6 take a -50% penalty to their fire resistance for 10 rounds.  This effect ignores magic resistance and doesnï¿½t stack with itself on a subject.
 
-Red Dragon Breath: Deals 10d10 fire damage in a 7.5’ cone with a save vs. breath at -6 for half damage.  Ignores magic resistance.
+Red Dragon Breath: Deals 10d10 fire damage in a 7.5ï¿½ cone with a save vs. breath at -6 for half damage.  Ignores magic resistance.
 
-Wing Buffet: All foes within 16’ of you are knocked back for 2 seconds, take 2d8+25 crushing damage, and are knocked unconscious for 1 round.  You also produce a Zone of Sweet Air around you for 1 round.  This effect ignores magic resistance, and a save vs. breath at -10 negates the unconsciousness but none of the other effects from Wing Buffet.~
+Wing Buffet: All foes within 16ï¿½ of you are knocked back for 2 seconds, take 2d8+25 crushing damage, and are knocked unconscious for 1 round.  You also produce a Zone of Sweet Air around you for 1 round.  This effect ignores magic resistance, and a save vs. breath at -10 negates the unconsciousness but none of the other effects from Wing Buffet.~
 */
