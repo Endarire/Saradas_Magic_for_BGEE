@@ -1,267 +1,761 @@
 @1=~Scroll~
-@2=~Spectacular combustion~
-@3=~Mysterious scroll~
-@4=~Spectacular combustion (Invocation)
+@2=~Spectacular Combustion~
+@3=~Mysterious Scroll~
 
-
+//As-is, this spell felt weak for a level 7 and seems more fitting for a level 4 or 5 spell.
+@4=~Spectacular Combustion
+School: Evocation
 Level: 7
-Radius: 30m
-Target: Single
+Range: 30'
+Duration: Special
 Casting Time: 7
-Saving throw: halves damage spells
+Area of Effect: 1 creature
+Saving Throw: Spell negates (-5 penalty)
 
-The wizard creates a small luminescent sphere into its hands, ready to be thrown at the target. When it touches the target creature, it triggers an immense column of fire that surrounds it, causing terrible burns. In addition, the target's weapon becomes incandescent and if the opponent does not succeed a saving throw vs. spells, must let it fall to the ground to avoid being burned. The initial fire damage is 5d10, and 3d10 more if target fails a saving throw. The target also continues to burn for the next three rounds, taking 5 fire damage for each one of them.~
+When you cast this spell, you make a small luminescent sphere in your hands, ready to be thrown at the target.  When it touches the target creature, it triggers an immense column of flame that surrounds it, causing terrible burns.
 
-@5 = ~Drain spell~
-@6 = ~Drain spell (Enchantment)
+A creature that fails its save vs. spell is knocked prone and takes 8d10 fire damage.  A successful save negates being knocked prone and reduces the fire damage to 5d10.  Regardless, the target continues to burn for 3 rounds, taking 5 fire damage per round with no additional save.~
 
-
+//Spell Drain was renamed Spell Siphon for clarity.  It also feels overpriced, since with the same spell slot I can just cast something to directly end the fight sooner and sleep off the damage.  To me, this seems fair as a level 1 or 2 spell to give characters more spell uses when they need them most.
+@5 = ~Spell Siphon~
+@6 = ~Spell Siphon
+School: Enchantment
 Level: 7
-Target: Single
-Radius: 7m
-Duration : Instantaneous
-Casting Time : 7
-Saving Throw: spells -5 denies
-
-This spell is quite famous among sorcerers. It was used many time in the past in the settling of scores between magicians, with the intent to ridicule the opponent. It's definitely one of the most devastating spells to use against a magician. Saradas was one of the most powerful and reknowned masters in Faerun and he used to entertain himself to use this spell, which he invented, on unsuspecting students, to make the exams much more difficult. EFFECT : The caster attacks the opponent's mind to make him forget two memorized spell if he fails a saving throw vs. spells ( -5), restoring one of his own. It affects spells from level 1 to 9, but it will try to start from the highest level available. NOTE: This spell affects only sorcerers and wizards (including dual-class and multiclass). If the target is not a magician, nothing would happen and the spell would be wasted.~
-
-@7=~Spell recovered~
-@8=~Lashing Wind~
-@9=~Lashing Wind (Evocation)
-
-Level: 6
-Casting Time: 6
-Radius: 15m
-Area of Effect: front of magician
-Saving Throw: breath (-2) reduces the effects
-
-With a single gesture of his hand the magician conjures a powerful gust of wind capable of knocking out an entire group of enemies. They are thrown 20 meters away from the mage, and if they fail a saving throw they suffer 1d10 bludgeoning damage, they will lose their grip on their weapons, and will be temporarily stunned because of the strong impact with the ground or other obstacles met on their way.~
-
-@10=~Gravitational Field~
-@11=~Gravitational Field (Alteration)
-
-Level: 5
-Time to cast: 5
-Range: 20 meters
-Target: Area
-Duration: the effects last for 15 seconds
-Saving Throw: vs Spell +2 negates
-
-This spell increases the force of gravity in a small area decided by the enchanter. All creatures in the area of effect must succeed a saving throw vs spell, or be overwhelmed by a sudden increase in gravity, thus dropping their weapons on the ground, because of their unsustainable weight. In addition, they are slowed down and their dexterity value is halved. The effects can be dispelled.~
-
-@12=~Spiritual explosion~
-@13=~Spiritual explosion (Invocation)
-
-Level: Epic
-Range: 75m
-Target: 1 creature
+Range: 7'
 Duration: Instantaneous
-Saving Throw: vs spells (-7)
+Casting Time: 5
+Area of Effect: 1 creature
+Saving Throw: Spell negates (-5 penalty)
 
-This is the final offensive spell, plasmed for the first time by Saradas, the Blue Wizard. The caster focuses an immense energy in its hands, including a fraction of his on spirit.
-The base damage is 1d10 per level of the wizard (up to a maximum of 10) and cannot be avoided with a saving throw, although the magic resistance helps to prevent the effects. The other component of the damage comes from the spirit of the sorcerer, which inflicts 20D10.
-If the target succeeds against a saving throw vs. spells with penalty -7, will avoid the spiritual damage. The magic resistance cannot stop the spiritual damage.
-Exhausted by the casting, the Invoker will loose 3d10 hit points and will be fatigued for the next hour.
-Note that the sphere can overcome the effects of protective barriers.~
+The caster attacks the opponent's mind to make him forget two memorized spell if he fails a saving throw vs. spell at a -5 penalty, restoring one of his own.  Spell Siphon affects spells from levels 1 to 9, but it will attempt to steal the highest level spell of this target first and restore the same level of spell to you.
 
-@14=~Flawless Teleport~
-@15=~Flawless Teleport (Illusion)
+This spell affects only sorcerers and wizards including dual-classed and multiclassed ones.  This spell has no effect on other creatures, even if they fail their save.
 
+This spell is quite famous among some sorcerers.  It was used many time in a past era in the settling of scores between magicians, with the intent to ridicule the opponent. It's definitely one of the most devastating spells to use against a magician.  Saradas was one of the most powerful and renowned masters in Faerun and he used to entertain himself to use this spell, which he invented, on unsuspecting students, to make the exams much more difficult.~
+
+@7=~Spell Siphon: You recovered a spell.~
+
+//I assumed Lashing Wind also worked like Wing Buffet in that it dispersed cloud effects.  Like other Saradas spells, this too felt overpriced and, to me, feels like a strong spell for level 2 and a moderate-to-weak spell for level 3.
+@8=~Lashing Wind~
+@9=~Lashing Wind
+School: Evocation
+Level: 6
+Range: 15'
+Duration: 1 round
+Casting Time: 6
+Area of Effect: Line in front of caster
+Saving Throw: Spell negates (+2 bonus)
+
+
+With a single gesture of his hand the caster evokes a powerful gust of wind capable of knocking out an entire group of enemies.  Enemies in range are thrown 20' away from the caster, and if they fail a saving throw vs. spell at a -2 penalty, they also suffer 1d10 bludgeoning damage, they drop weapons they hold in their hands, and are 
+stunned for 1 round due to the sudden wind force.
+
+This gust of wind is also strong enough to disperse lingering cloud effects such as Cloudkill.
+
+Friendly creatures are unaffected by this spell.~
+
+//Gravitational Field again feels overpriced.  Slow is already a somewhat useful level 3 spell that lasts longer but doesn't disarm nor directly reduce creature stats.  At level 3, Gravitational Field - even with its +2 bonus on its save - seems like a plausible competitor to the more reliably applied but less directly powerful Slow.  Give Gravitational Field a -2 save or more severe penalty and it's plausibly worthy of a level 4 or 5 spell slot.
+@10=~Gravitational Field~
+@11=~Gravitational Field
+School: Alteration
+Level: 5
+Range: 20'
+Duration: 15 seconds
+Target: 1 creature
+Casting Time: 5
+Saving Throw: Spell negates (+2 bonus)
+
+This spell increases the force of gravity in an area decided by the caster.  Each hostile creature in the area of effect must succeed a saving throw vs spell at a +2 bonus or be overwhelmed by a sudden increase in gravity, thus dropping their weapons on the ground because of their unsustainable weight.  In addition, they are slowed as per a Slow spell and their DEX score is halved.  Like most effects, the effects of this spell can be dispelled.
+
+Friendly creatures are unaffected by this spell.~
+
+//Formerly Spiritual Explosion, Plasma Beam was renamed something more Evocation-themed and its mechanics were clarified and streamlined.
+@12=~Plasma Beam~
+@13=~Plasma Beam
+School: Evocation
+Level: Epic
+Range: 75'
+Duration: Instantaneous
+Target: 1 creature
+Casting Time: Instant
+Saving Throw: Spell half (-7 penalty)
+
+Plasma Beam deals d10+1 magic energy damage per caster level to a maximum of 20d10+1.  A successful save vs. spell at a -7 penalty halves this damage.
+
+This spell ignores spell resistance and overcomes protective barriers.
+
+This spell also causes the caster to be fatigued for 1 hour after casting.
+
+This is the most potent offensive spell devised and taught by Saradas, the Blue Wizard.  The caster focuses an immense energy in its hands, including a fraction of his life energy.~
+
+//I renamed Flawless Teleport to Into Thin Air because of its teleport effect combined with invisibility:  Someone seems to vanish into thin air.  This is the most balanced spell Saradas made so far!
+
+@14=~Into Thin Air~
+@15=~Into Thin Air
+School: Illusion
 Level: 3
-Radius: 30m
+Radius: 30'
 Duration: Instantaneous
 Casting Time: 3
 Area of Effect: Caster
 
-This prodigious spell allows the caster to teleport without error within 30 meters in his range of vision, also, as soon as he arrives to the chosen destination, he will turn invisible as for the spell of invisibility, getting a considerable tactical advantage over is foes. The wizard will remain in this state for 2 rounds, unless he starts an offensive action during this period.~
+By casting this spell, you seemingly vanish Into Thin Air by turning invisible for 2 rounds as per the normal Invisibility spell and accurately teleporting to somewhere you can see within 30'.~
 
+//Tenser's Supremacy by default is NOT worth a level 9 spell.  I would much rather use Time Stop or Summon Planetar or Chain Contingency with that spell slot, even on a Fighter/Mage.  (Even Shapechange, the most comparable BGII level 9 spell, is generally weak for its level in this game.)  Since the mod's author granted the community permission to update Saradas Magic 1 & 2, below are listed the clarified default version and a rebalanced version.
 
-@16=~Tenser's supremacy~
-@17=~Tenser's supremacy (Alteration)
+//Tenser's Supremacy: I also don't know what "CA +5" means in the default text.  Is it CHA?
 
+@16=~Tenser's Supremacy~
+@17=~Tenser's Supremacy
+School: Alteration
 Level: 9
 Duration: 1 minute
-Area of Effect: Caster
 Casting Time: 9
+Area of Effect: Caster
 
-This spell is the terror of every fool in the Realms. Many warriors bullies the magicians for their lack of athleticism, but the magician under the effect of this spell will no doubt wipe the smiles from their faces. His body is transformed, becoming impressively strong. The magician leaves his old nature, believing that he has always been a warrior and becoming very skilled in combat. As if that was not enough, the sorcerer summons a magical sword that he can brandish perfectly. The magician can maintain this status only for a minute, during which he cannot cast spells. At the end of the effects, he'll be fatigued for trauma suffered and will experience severe difficulty in spell casting. The effects can be dispelled.
+Tenser's Supremacy transforms you into a physical fighting machine in better ways than the less powerful Tenser's Transformation and creates a magical sword in your main hand with which to dispense your judgment.
 
-BONUS:
-CA +5
-TACH0 set to -3
-Strength rised to 25
-HP and movement speed doubled.~
+SPELL EFFECTS:
+-Spellcasting is disabled.
 
-@18=~Tenser's enchanted sword~
-@19=~Horrid transformation~
-@20=~Horrid transformation (Necromancy)
+-THAC0 is set to -3.
 
+-STR is set to 25.
+
+-Your HP and movement speed are doubled.
+
+-Your AC improves by 4.
+
+AFTER EFFECTS:
+-You become exhausted.
+
+Rumors exist that this spell was devised to to punish the foolish warriors of the Realms who believed themselves inherently superior to arcanists due to their greater athleticism.~
+
+//                           //
+//This is my revised version.//
+//                           //
+
+//My main considerations for rebalancing Tenser's Supremacy were Tenser's Transformation (6), Improved Haste (6), Horrid Wilting (8), Time Stop (9), and the OlvynSpell Attain Perfection (9).
+
+//~Tenser's Supremacy
+//School: Alteration
+//Level: 8
+//Duration: 1 round per caster level
+//Casting Time: 1
+//Area of Effect: Caster
+
+//Tenser's Supremacy transforms you into a physical fighting machine in better ways than the less powerful Tenser's Transformation and creates a magical sword in your main hand with which to dispense your judgment.
+//
+//SPELL EFFECTS:
+//-Your THAC0 is set to that of an equal level Fighter.  If you are a dual or multiclass, your THAC0 becomes equal to a Fighter of your total character level.
+//
+//-STR, DEX, and CON are set to 25.
+//
+//-Your AC improves by 4.
+//
+//-Your HP and movement speed are doubled.
+//
+//-You gain an extra attack per round as affected by a normal Haste spell but without the fatigue afterward.
+//
+//-You become immune to critical hits.
+//
+//Rumors exist that this spell was devised to to punish the foolish warriors of the Realms who believed themselves inherently superior to arcanists due to their greater athleticism.
+//
+//The effects of multiple applications of Tenser's Supremacy on a subject don't stack.
+
+@18=~Tenser's Sword of Supremacy~
+
+//Flay, formerly Horrid Transformation, strips the flesh from a humanoid so it becomes a skeleton; hence the name.  "Horrid Transformation" is also generic.
+
+//This spell also comes with a rebalanced version below due to Finger of Death being an outright save or die at this same spell level that does magic damage on a passed save.
+@19=~Flay~
+@20=~Flay (Necromancy)
 Level: 7
-Range: 5m
-Target: 1 creature
+Range: 5'
 Duration: Permanent
-Saving throw: negates the effects
+Casting Time: 7
+Target: 1 creature
+Saving Throw: Polymorph negates (-2 penalty)
 
-The target reached by this terrible curse must succeed a saving throw vs. Polymorph (-2 penalty) or suffer a horrid and nauseating transformation. His limbs begin to rot quickly, losing most of their strength. He will become so repellent to cause nausea and disgust in anyone standing less than a few feet away from him. He also suffers a serious motor impairment that will halve his movement speed.
-Even the lucidity disappears, making the target completely unable to think and undertake any action, even the most basic one.
-The intelligence, strength and charisma suffer the heaviest penalty.
-The only action available to the target is the use of potions and equipped items.
-The effects are permanent unless a "remove curse" spell is casted on the victim of this curse.
-NOTE:
-It only affects humanoid creatures, therefore animals, undead or giant humanoids are not affected by this spell.~
+The subject of by this terrible curse must succeed a saving throw vs. Polymorph (-2 penalty) or suffer a horrid and nauseating transformation as its skin its rapidly stripped away!  A successful save negates this effect.  Only Humanoids can be affected by this spell.
 
-@21=~Spells have been drained~
-@22=~The target is not affected by this spell~
+A Remove Curse spell cast on a subject of this spell ends its effects.  It can't be dispelled as normal.
+
+EFFECTS FOR SUBJECT ON A FAILED SAVE:
+-The only actions this creature can take are movement (though only at half speed) and using items from its quick slots or inventory.
+
+-Attacking and casting are prevented.
+
+-STR, INT, and CHA are reduced to 1.~
+
+//                           //
+//This is my revised version.//
+//                           //
+
+//Flay's vanilla version is weak.  Polymorph Other is a level 4(!) spell that can debilitiate foes and Slay Living is a level 5 divine spell that can outright kill them.  This version expands what creatures can be affected.
+
+/*
+~Flay
+School: Necromancy
+Level: 5
+Range: 30'
+Duration: Permanent
+Casting Time: 5
+Target: 1 creature
+Saving Throw: Polymorph negates (-2 penalty)
+
+The subject of by this terrible curse must succeed a saving throw vs. Polymorph (-2 penalty) or suffer a horrid and nauseating transformation as its skin its rapidly stripped away!  A successful save negates this effect.
+
+Creatures with discernable anatomies can be affected by this spell.  Thus, Humanoids, Giants, Animals, Aberrations, and most creature types can be affected but Constructs, Elementals, Oozes, and Plants can't be.
+
+A Remove Curse spell cast on a subject of this spell ends its effects.  It can't be dispelled as normal.
+
+EFFECTS FOR SUBJECT ON A FAILED SAVE:
+-The only actions this creature can take are movement (though only at half speed) and using items from its quick slots or inventory.
+
+-Attacking and casting are prevented.
+
+-STR, INT, and CHA are reduced to 1.~
+*/
+
+@21=~Spells have been siphoned.~ //Spell Siphon?  (I assumed so.)  Drain Spell?  Spellcasting Disabled note?
+@22=~This subject is unaffected by your spell.~
 @23=~Saradas~
-@24=~Impenetrable defense~
-@25=~Impenetrable defense (Abjuration)
 
+//This spell has its clarified and rebalanced versions below.  "Impenetrable Defense" competes in name with "Absolute Immunity;" hence the rename.  I also found the vanilla version surprisingly well-balanced for an 'epic' ability!
+@24=~Legion's Ward~
+@25=~Legion's Ward
+School: Abjuration
 Level: Epic
-Range: Allies within 10m
-Duration: 1 turn
+Range: Allies within 10'
+Duration: 10 rounds
+Casting Time: Instant
+Saving Throw: None
 
-The magician that has specialized in the school of Abjuration and has achieved total mastery in this field, has access to this barrier of magical nature of incomparable power.
-All of the elemental defenses are raised up to 75%, also resistance to bludgeoning, slashing, piercing and ranged damage, are raised to 33%.
-The saving throws receive a universal bonus of +2 and +3 to armor class, the barrier also prevents 7th level spells to penetrate it.
-Note that the creatures protected by Impenetrable Defense are also immune to the effects of level drain, instant death, disintegration and petrification.
-The abjurer can cast this spell only once a day and its great effectiveness makes it relatively short in duration. Also for the entire duration of the spell, the caster cannot cast other spells because he must focus to maintain the barrier active.
-It cannot be dispelled by Dispel Magic.~
+As the caster, you erect an undispellable barrier to guard your allies and you within range at cast time.  While this barrier is active, you can't cast any other spells since you're focused on maintaining the barrier.
 
-@26=~Ego's frailty ~
-@27=~Ego's frailty (Alteration)
+All allies in range gain these the below benefits:
 
++75% resistance to all energy types (acid, cold, electricity, fire, magic, and poison)
+
++33% resistance to all physical damage (crushing, piercing, and slashing)
+
+-All saves improve by 2.
+
+-AC improves by 3.
+
+-Immunity to level drain, death effects, disintegration, and petrification.
+
+-Immunity to all hostile spells of level 7 and below.~
+
+//                           //
+//This is my revised version.//
+//                           //
+
+//My main considerations for rebalancing Tenser's Supremacy were Absolute Immunity (9), the various energy resistance spells, Protection from Magic Weapons (6), and the Made in Heaven spell Major Globe of Invulnerability (8).
+
+/*~Legion's Ward
+School: Abjuration
 Level: Epic
-Range: 20m
-Target: multiple enemies
-Duration: 1 turn and a half
-Saving Throw: Negates effects
+Range: Allies within 30'
+Duration: 10 rounds
+Casting Time: Instant
+Saving Throw: None
 
-The magician that has specialized in the school of Alteration and has achieved total mastery in this field, has access to this spell that allows him to destabilize not only the matter of the target, but also its soul.
-When the spell hits the target he will feel the weight of the whole universe on his shoulders, leaving him heavily weakened and dismayed.
-All his elemental resistances, magic damage resistance, and physical resistance will be brought to a flat value of -25, thus exposing the target to an increased 25% damage from those sources.
-The magic resistance will be lowered by 75 points and the effects of the Slow spell will affect the creatures hit by Ego's frailty.
-A successful saving throw vs. spells (with penalty -2) completely negates the effects.~
+As the caster, you erect an undispellable barrier to guard your allies and you within range at cast time.
 
-@28=~Summon Devil of Baator~
-@29=~Summon Devil of Baator (Conjuration)
+All allies in range gain these the below benefits:
 
++75% resistance to all energy types (acid, cold, electricity, fire, magic, and poison)
+
++33% resistance to all physical damage (crushing, piercing, and slashing)
+
+-All saves improve by 2.
+
+-AC improves by 3.
+
+-Immunity to level drain, death effects, disintegration, and petrification.
+
+-Immunity to all hostile spells of level 7 and below.~
+*/
+
+//This spell has its clarified and rebalanced versions below.  I kept "Ego's Frailty" as a name assuming Ego was the guy who made this spell.
+@26=~Ego's Frailty ~
+@27=~Ego's Frailty
+School: Alteration
 Level: Epic
-Range: 15m
-Duration: 1 turn and a half
+Range: 20'
+Target: All enemies within 20' of the caster
+Duration: 15 rounds
+Casting Time: Instant
+Saving Throw: Spell negates (-2 penalty)
 
-The magician that has specialized in the school of Conjuration and has achieved total mastery in this field, has access to this frightening ritual of evocation. He will create a dimensional rift between the First Material Plane and the Nine Hells of Baator, invoking a demon prince of immeasurable power.
-He will not obey blindly to the Evoker's command, but he will protect him whenever an enemy would come too close; as soon as the danger is averted, he will wander around the group, waiting for an enemy to devour.
-His attacks are deadly, causing 2d10 +5 slashing damage. His claws are considered as a +5 weapon, also causing an extra 1d6 damage from fire. The attack also has a 10% chance of tearing an enemy apart instantly if he fails a saving throw vs. death.
-In exchange for his services, the devil claims half of the Conjurer's current hit points.~
+Any creature affected by this spell (and a save vs. spell with a -2 penalty negates) is afflicted with all these:
 
-@30=~Demonic Prince~
-@31=~Foreseeing the future~
-@32=~Foreseeing the future (Divination)
+-Energy resistances to all energy types (acid, cold, electricity, fire, magic, and poison) is set to -25%, meaning each subject takes +25% damage from these types.
 
+-Spell resistance is lowered by 75% to a minimum of 0.
+
+-Slowed as per the Slow spell.
+
+This spell's name is believed to have come from the notion that it makes its subjects entirely vulnerable, inside and out, penetrating even to the very essence.~
+
+//                           //
+//This is my revised version.//
+//                           //
+
+//This 'all or nothing' debuff just seemed weak for an Epic spell.  At the very least, it's competing with Summon Planetar, Improved Alacrity for epic status.  Normally, Time Stop (9) just paralyzes all foes and makes them easily killed via damage - the sort of effect Ego's Frailty was trying to do.
+
+//Thus, I revised the spell entirely to make it more fitting for someone who normally had to give up Abjuration.
+
+/*
+~Fluidity
+School: Alteration
 Level: Epic
-Radius: self
+Range: 30'
+Target: All allies in 30' ot the caster
+Duration: 1 round per caster level
+Casting Time: Instant
+Saving Throw: None
+
+All affected allies are immune to these effects for the duration:
+
+-Entangle/Grease/Web
+
+-Hold/Paralysis
+
+-Imprisonment
+
+-Maze
+
+-Slow
+
+-Stun
+
+If your caster level is at least 30, all allies and you are also immune to Time Stop effects, allowing you to act freely in areas of stopped time.
+*/
+
+//The default text below seemed to use 'demon' and 'devil' interchangeably.  Since the author seems to intend for it to be a LE devil, I used that.  My revised spell is below because I find it very odd that Saradas despises evil openly and yet teaches Conjurers how to bring in fiend lords!
+
+//Stats below are copied from the Spell Revisions version of Gate.
+@28=~Infernal Pact~
+@29=~Infernal Pact
+School: Conjuration
+Level: Epic
+Range: 15'
+Duration: 15 rounds
+Casting Time: Instant
+
+By casting this spell, you invoke a pact between the Nine Hells of Baator and yourself to borrow the services of a Devil Prince - briefly.  This devil will attack any hostile creature it can find.
+
+Beware!  Once this devil has no more enemies to fight, it will quickly turn violent against any creature not warded by Protection from Evil!
+
+Invoking this pact is costly to the caster:  While in effect, half the caster's maximum HP are transferred to the conjured Devil Prince, though are regained if the prince is destroyed or dispelled or the spell otherwise ends.
+
+Pit Fiend (20 Hit Dice):
+STR 24, DEX 16, CON 19, INT 20, WIS 16, CHA 25; AL Lawful Evil
+HP 170, AC -8, THAC0 -7, Saving Throws 4/6/4/8/6
+5 Attacks Per Round, 2d6+16 Piercing Damage (Claws, Bite, & Tail +4)
+
+Combat Abilities (20% chance each):
+Disease: creatures struck by a pit fiend’s bite attack must save vs. death at -4 or be infected with a vile disease known as devil chills, losing 2 points of strength after an incubation period of 12 hours
+Poison: a pit fiend’s bite injects a lethal poison which inflicts 10 points of damage every second for 2 rounds unless a save vs. poison at -4 penalty is made
+Constrict: creatures struck by the pit fiend’s tail must save vs. death at -4 to avoid being stunned for 1 round
+
+Special Qualities:
+Immune to weapons lower than +3 enchantment
+Immune to confusion, fear, poison, & stun effects
+Regeneration: 2hp/round
+Fire Resistance 100%; Cold Resistance 50%; Magic Resistance 65%
+
+Special Abilities:
+See Invisibility (permanent)
+Improved Invisibility (at will)
+Fireball (once every 5 rounds)
+Dispel Magic (once every 5 rounds)
+Symbol of Weakness (once every 5 rounds)
+Unholy Word (once per day)
+Meteor Swarm (once per day)~
+
+@30=~Devil Prince~
+
+//                           //
+//This is my revised version.//
+//                           //
+
+//This version calls one of the Elemental Princes as listed below, making it more lore-friendly while still being potent.  Stats are from the Spell Revisions version of Elemental Prince Call.
+
+/*
+=~Elemental Pact
+School: Conjuration
+Level: Epic
+Range: 30'
+Duration: 15 rounds
+Casting Time: Instant
+
+By casting this spell, you invoke a pact between the Elemental Planes and yourself to borrow the services of a major Elemental - briefly.
+
+Unlike certain other abilities which conjure elementals, this spell has no mind battle component:  Simply finish casting it and enjoy commanding this creature!
+
+Major Air Elemental (20 Hit Dice)
+STR 19, DEX 24, CON 18, INT 17, WIS 16, CHA 18; AL Neutral
+HP 160, AC -8, THAC0 -3, Saving Throws 3/5/4/4/6
+4 Attacks Per Round, 1d12+11 Piercing Damage (Fist +4)
+
+Special Qualities:
+Blade Barrier (permanent)
+Immune to weapons lower than +2 enchantment
+Immune to hold, poison, polymorph, sleep, & stun effects
+Electrical Resistance 100%; Magic Resistance 60%
+Slashing, Crushing, & Piercing Resistance 20%; Missile Resistance 60%
+
+Major Earth Elemental (20 Hit Dice):
+STR 24, DEX 12, CON 21, INT 17, WIS 16, CHA 18; AL Neutral
+HP 190, AC -5, THAC0 -6, Saving Throws 3/5/4/4/6
+3 Attacks Per Round, 2d12+16 Crushing Damage (Fist +4)
+
+Special Qualities:
+Stoneskin (1 skin each round)
+Immune to weapons lower than +2 enchantment
+Immune to hold, poison, polymorph, sleep, & stun effects
+Acid Resistance 100%; Magic Resistance 60%
+Slashing, Piercing, & Missile Resistance 40%
+
+Major Fire Elemental (20 Hit Dice):
+STR 19, DEX 21, CON 19, INT 17, WIS 16, CHA 18; AL Neutral
+HP 170, AC -7, THAC0 -3, Saving Throws 3/5/4/4/6
+3 Attacks Per Round, 2d10+11 Slashing +2d10 Fire Damage (Fist +4)
+
+Special Qualities:
+Fire Shield (permanent)
+Immune to weapons lower than +2 enchantment
+Immune to hold, poison, polymorph, sleep, & stun effects
+Fire Resistance 125%; Magic Resistance 60%
+Slashing, Crushing, Piercing, & Missile Resistance 20%~
+*/
+
+//I again added a different effect below compared to the original which, while the original may be effective, felt like a boring buff.  My version is intended to be more exciting and less easily reproduced.  I also renamed the spell "Precognition" because "Foreseeing the Future" felt awkardly named and "Foresight" was taken.
+
+@31=~Precognition~
+@32=~Precognition
+School: Divination
+Level: Epic
+Target: Caster
 Duration: 1 hour
+Casting Time: Instant
 
-The magician that has specialized in the school of Divination and has achieved total mastery in this field, has access to this wonderful spell. He starts to focus his mind in order to receive visions. He will be able to see, almost flawlessly, the events that will happen in the next coming hour, granting him a huge tactical advantage over the foes.
-The armor class of the Diviner increases by 5 points and his saving throws get a universal bonus of 4 points, he is also immune to the first 10 physical attacks that would otherwise normally hit him.
-The power of this spell has more to offer, infact the extraordinary gifts of divination, allow the caster to materialize the surrounding area in his mind, as well as to reveal the presence of useful magical objects hidden from the sight of normal people. The spell also grants the ability to see the reality with absolute clarity (True Sight).
-The protection lasts for one hour and cannot be dispelled.~
+With this spell active, your AC improves by 5 and your saves each improve by 4.  You ignore the first 10 physical attacks that would harm you as if you were affected by Stoneskin, though Foreseeing the Future does not stack with Stoneskin nor similar abilities.
 
-@33=~Absolute abnegation~
-@34=~Absolute abnegation (Enchantment)
+Also, whilethis spell is active, you are continually affected by True Seeing.
 
+This spell can't be dispelled.~
+
+//                           //
+//This is my revised version.//
+//                           //
+
+/*
+=~Precognition
+School: Divination
 Level: Epic
-Radius: 30m
-Duration: 1 turn and a half
-Target: multiple enemies
-Saving Throw: negates
+Range: 0
+Duration: 1 hour
+Casting Time: Instant
+Area of Effect: Caster
 
+With this spell active, you can continually see invisible & illusory creatures as per True Seeing and are immune to backstab damage, the bad luck effect, blindness, critical hits, deafness, Devour Brain, Greater Malison, and the Time Stop effect.  You also get a +100 bonus to Lore.
+*/
 
-The magician that has specialized in the school of Enchantment and has achieved total mastery in this field, has access to this dreadful spell that completely disrupts the mind and body of the targets.
-They suffer the same effects of the spell "Dire Charme", but their body is hit by a powerful adrenaline rush that will unleash animalistic behaviors.
-They will try to protect the caster at the cost of their own lives, and they will never doubt any of the Enchanter's commands. They will also be faster, stronger and shall not be diverted in any way from their task.
-At the end of the effect of the spell, the body of the target's will suffer a strong shock due to stress, leading them to cardiac arrest and therefore, to instant death.
-A saving throw vs. spells with penalty -5 negates the effects.
-
-STATISTICS:
-Strength +3
-THAC0 +5
-Attacks per round : +1
-Doubled movement speed
-Immunity to charm and confusion~
-
-@35=~Legion of shadows~
-@36=~Legion of shadows (Illusion)
-
+//I renamed the spell "Fanaticism" from "Absolute Abnegation" since that's MUCH closer to what it is!  This also seems like a more proper high-level Enchantment ability than confuse or mind control X!  My revised version changes Dire Charm to Domination.
+@33=~Fanaticism~
+@34=~Fanaticism
+School: Enchantment
 Level: Epic
-Radius : party
-Duration: 1 turn
+Range: 30'
+Duration: 15 rounds
+Casting Time: Instant
+Area of Effect: All enemies
+Saving Throw: Spell negates (-5 penalty)
 
-The magician that has specialized in the school of Illusion and has achieved total mastery in this field, has access to this masterful illusion. He creates perfect clones of his party members, including their equipment.
-As soon as these replicants are created, the party members will be concealed and teleported to a close safe place. The enemies are totally unaware of the illusion, and shall not tell the difference between the party members and the replicants, thus attacking them instead of the Illusionist's group.
-Note that these shadows are not able to hurt the opponents, but they are totally under the influence of the caster, which is able to cast any other spell he desires.
-All party members under the effects of Legion of Shadows, cannot cast other illusions such as Simulacrum, Mislead and Project image.~
+By casting this spell, you can affect a mob of creatures to be affected by a Dire Charm effect (with the same limitations on what creature types can be affected - normally, Humanoids only) that is so eager to give their all for you that their stats increase as listed below.  A save vs. spell at a -5 penalty negates this mind control.
 
+After the spell ends, their fanaticism will likely lead to their death due to stress, cardiac arrest, and being pushed to their limits.  A successful save vs. spell at a -5 penalty negates this instant death effect.
+
+FANATIC STATISTICS:
+-Strength +3
+
+-THAC0 +5
+
+-Attacks per round: +1 (maximum 10)
+
+-Doubled movement speed
+
+-Immunity to charm and confusion effects
+
+AFTER EFFECTS:
+~Each fanatic is slain once the spell's duration expires unless it succeeds on a separate save vs. spell at a -5 penalty.  This is a death effect, and any ability which prevents death effects also prevents this death effect.
+
+//                           //
+//This is my revised version.//
+//                           //
+
+/*
+~Fanaticism
+School: Enchantment
+Level: Epic
+Range: 30'
+Duration: 15 rounds
+Casting Time: Instant
+Area of Effect: All enemies
+Saving Throw: Spell negates (-5 penalty)
+
+By casting this spell, you can affect a mob of creatures to be affected by a Domination effect that is so eager to give their all for you that their stats increase as listed below.  A save vs. spell at a -5 penalty negates this mind control.
+
+After the spell ends, their fanaticism will likely lead to their death due to stress, cardiac arrest, and being pushed to their limits.  A successful save vs. spell at a -5 penalty negates this instant death effect.
+
+FANATIC STATISTICS:
+-Strength +3
+
+-THAC0 +5
+
+-Attacks per round: +1 (maximum 10)
+
+-Doubled movement speed
+
+-Immunity to charm, confusion, domination, and stun effects
+
+AFTER EFFECTS:
+~Each fanatic is slain once the spell's duration expires unless it succeeds on a separate save vs. spell at a -5 penalty.  This is a death effect, and any ability which prevents death effects also prevents this death effect.
+
+*/
+
+//"Legion of Shadows" - the default name - may be an allusion to Batman's League of Shadows, but since Shadows are also necromantic creatures in BG2, I renamed the spell to "Illusory Legion."  This clarity may be a slight rewrite, but the original was ambiguous enough that I chose this interpretation.
+@35=~Illusory Legion~
+@36=~~Illusory Legion
+School: Illusion
+Level: Epic
+Range: 30'
+Duration: 10 rounds
+Casting Time: Instant
+Area of Effect: All party members
+Saving Throw: None
+
+By casting this spell, you create an illusionary duplicate of each of your party members including yourself which ignore the summoning limit.  These duplicates can't cast spells, attack, use innate abilities, nor use items, but have the same saves, AC, resistances, and HP as your party at the time of their creation.
+
+Also, at the time of casting, your entire party is affected by a form of Invisibility that is not broken by hostile actions, nor do you become partially visible by hostile actions.~
+
+//I have sought a lichdom-like ability in D&D games for years, maybe decades, and this is somewhat it.  Of course, I have a revised version below.  (I also ignore the possibility that Archmage Saradas isn't the kind, wise man he claims to be due to handing out such potent spells as he does!)
 @37=~Deathly Hallows~
-@38=~Deathly Hallows (Necromancy)
-
+@38=~Deathly Hallows
+School: Necromancy
 Level: Epic
-Radius: Self
-Duration : About half an hour
-
-The magician that has specialized in the school of Necromancy and has achieved total mastery in this field, has access to this macabre ritual of transformation. He can now polymorph himself into a Lich.
-This spell is particularly brilliant due to the nature of its duration. In fact, it does not permanently turn the Necromancer into an undead creature, but bestows the exact same benefits for all the duration of the spell.
-In addition to being immune to effects such as fear, charm, poison, instant death, blindness, feeble mind, sickness, confusion, level drain, he can only be harmed by magic weapons greater than +2.
-He's also immune to frost damage and will suffer 75% less damage from electrical sources, but he strongly suffers from fire element attacks and his new body does not allow him to move easily.
-Its frightening appearance instills fear in all surrounding enemies.
-During the transformation, the Necromancer can use his Lich's touch as a weapon, inflicting 1d10 +5 piercing damage, and an additional 2d6 cold damage, also, if the target does not succeeds a saving throw vs. death, will be paralyzed for 10 seconds.
-The Lich's touch is to be considered as a +5 enchanted weapon, and it drains life on hit (1d6).
-
-Deathly Hallows cannot be dispelled and the Necromancer cannot use other polymorph spells while the spell is in effect.~
-
-@39=~Lich's touch~
-@40=~Magic, elemental and physical resistances have been lowered~
-@41=~Item created inside inventory~
-
-@42=~Knowledge of the Scholar~
-@43=~Knowledge of the Scholar (Generalist)
-
-Level: Epic
-Radius: Self
+Range: 0
 Duration: 30 minutes
+Casting Time: Instant
+Area of Effect: Caster
+Saving Throw: None
 
-The magician who has decided not to specialize in any specific magical school, has fully understood the energies that pervade Faerun and is able to channel and mold them more effectively. For the entire duration of the spell, the magician lowers the casting time of all of his spells by 1 and doubles their duration, he also expands his magical aura. The enemies hit by the aura will suffer an inevitable penalty of 3 points to all their saving throws. The resistance to elemental and magic damage is halved, and magic resistance is lowered by 25 points. The effects of the aura last for 30 seconds and can not be stacked. Any magic item equipped by the enemies or potions can still increase these resistances, same goes for protective spells.~
+Due to your affinity with necromancy, you can transform yourself temporarily into a Lich with some of its abilities.
 
-@44=~Shroud of wild magic~
-@45=~Shroud of wild magic (Wild magic)
+While in Lich form, you gain the below benefits beyond being able to use an innate ability to return to your normal form.
 
+LICH STATISTICS:
+-As this is a polymorph effect, you can't be affected by other friendly polymorph effects with it active.
+
+-Immune to blindness, charm, confusion, death effects, disease, domination, fear, level drain, and poison.
+
+-Can only be harmed by weapons that strike as +3 or greater.
+
++75% electricity resistance.
+
+-Continuously surrounded by a 30' fear aura.  Foes in 30' must save vs. spell each round or be panicked for 1 round.
+
+-Your weapon changes to Lich Touch.  This magic natural weapon counts as a +5 weapon, does d10+5 piercing damage & 2d6 cold damage per hit, and heals you for d6 HP per hit.  Whenever a creature is hit with this Lich Touch, the subject must save vs. death or be paralyzed for 10 seconds.  These effects ignore spell resistance.~
+
+//                           //
+//This is my revised version.//
+//                           //
+
+
+/*
+~Deathly Hallows
+School: Necromancy
 Level: Epic
-Radius: 20m
-Target: Single
-Duration: 1 turn
-Saving Throw: negates effects
+Range: 0
+Duration: 8 hours
+Casting Time: Instant
+Area of Effect: Caster
+Saving Throw: None
 
-The magician that has specialized in the school of Wild Magic and has reached the total mastery in this field, has access to this spell that has the power to wrap the enemy into a strong shroud of wild magic.
-If the enemy fails a saving throw vs Breath with a penalty -3, will be wrapped up in this energy for 1 turn. Every spell that he will try to cast will instead result in a burst of untamable wild magic, causing ill-omened effects on himself. The Wild Mage infact, makes sure of this by negatively altering the enemy's table of wild magic effects.
-This energy that envelops the enemy cannot be dispelled. One must also keep in mind that even a grand master shall never fully control this type of magical energy, therefore, positive effects for the enemy can not be completely excluded.~
+Due to your affinity with necromancy, you can transform yourself temporarily into a Lich with some of its abilities.
 
-@46=~Wrapped in wild magical energy~
-@47=~Magic Aura~
+While in Lich form, you gain the below benefits beyond being able to use an innate ability to return to your normal form.
+
+LICH STATISTICS:
+-As this is a polymorph effect, you can't be affected by other friendly polymorph effects with it active.
+
+-Immune to blindness, charm, confusion, death effects, disease, disintegration, domination, fear, feeblemind, level drain, petrification, poison, polymorph other, sleep, and stun.
+
+-Immune (+100% resistance) to cold and electricity.
+
+-Can only be harmed by weapons that strike as +3 or greater.
+
++75% electricity resistance.
+
+-Continuously surrounded by a 30' fear aura.  Foes in 30' must save vs. spell each round or be panicked for 1 round.
+
+-You can use the Lich Touch innate ability at will.  This is an instantaneous ability that ignores spell resistance.
+
+This magic natural weapon counts as a +5 weapon, improves your THAC0 by 5, does d10+5 piercing damage damage & 2d6 cold damage per hit, and heals you for d6 HP per hit.  Whenever a creature is hit with this Lich Touch, the subject must save vs. death at a -2 penalty or be paralyzed for 10 rounds.~
+*/
+
+@39=~Lich's Touch~
+@40=~Ego's Frailty: Energy and physical resistances have been reduced.~
+@41=~An item was created in your inventory.~
+
+//"Archmage's Aura" is a more apt term for this since "Knowledge of the Scholar" is so broad.  My barely revised version is below.  (Note how Ego's Frailty seems like a weaker version of this spell!)
+@42=~Archmage's Aura~
+@43=~Archmage's Aura
+School: Universal
+Level: Epic
+Range: 30'
+Duration: 30 minutes
+Casting Time: Instant
+Area of Effect: Caster
+Saving Throw: None
+
+While this ability is active, you gain the below benefits.  Note that this ability from multiple casters doesn't stack on a creature.
+
+-The casting time of all your spells is reduced by 1 (minimum 0).
+
+-The duration of all spells you cast doubles.
+
+-All foes within this aura have each of their saves penalized by 3 and receive a -25% penalty to their spell resistances (minimum 0) and a -50% penalty to their energy resistances (acid, cold, electricity, fire, magic, and poison).~
+
+//                           //
+//This is my revised version.//
+//                           //
+
+/*Archmage's Aura
+School: Universal
+Level: Epic
+Range: 30'
+Duration: 8 hours
+Casting Time: Instant
+Area of Effect: Caster
+Saving Throw: None
+
+While this ability is active, you gain the below benefits.  Note that this ability from multiple casters doesn't stack on a creature.
+
+-The casting time of all your spells is reduced by 1 (minimum 0).
+
+-The duration of all spells you cast doubles.
+
+-All foes within this aura have each of their saves penalized by 3 and receive a -25% penalty to their spell resistances.~
+*/
+
+//It's an interesting idea but my revised version is below.  (The base version is about equivalent to a level 1 OlvynSpell!)
+@44=~Shroud of Wild Magic~
+@45=~Shroud of Wild Magic
+School: Wild Magic
+Level: Epic
+Range: 20'
+Duration: 10 rounds
+Casting Time: Instant
+Area of Effect: 1 creature
+Saving Throw: Breath negates (-3 penalty)
+
+When you cast this spell, a foe that fails its save vs. breath at a -3 penalty will automatically trigger wild surges for any spell it casts within the aura for its duration.  As is the nature of wild magic, these wild surges may be harmful, helpful, or neutral to their casters.
+
+This Shroud of Wild Magic can't be dispelled.
+
+One must also keep in mind that even a grand master shall never fully control this type of magical energy.~
+
+//                           //
+//This is my revised version.//
+//                           //
+
+/*Shroud of Wild Magic
+School: Wild Magic
+Level: Epic
+Range: 0
+Duration: 8 hours
+Casting Time: Instant
+Area of Effect: All foes within 30' of you
+Saving Throw: Spell negates (-4 penalty)
+
+When you cast this spell, a foe that fails its save vs. spell at a -4 penalty will automatically trigger wild surges for any spell it casts within the aura for its duration with a -20 penalty on its wild surge roll (minimum 0).  As is the nature of wild magic, these wild surges may be harmful, helpful, or neutral to their casters.
+
+Meanwhile, all wild surges you trigger gain +20 to their wild surge rolls (maxmimum 100).
+
+This Shroud of Wild Magic can't be dispelled.
+
+One must also keep in mind that even a grand master shall never fully control this type of magical energy.~
+*/
+
+@46=~Shroud of Wild Magic: Shrouded in wild magic.~
+@47=~Knowledge of the Scholar: Magic aura active.~
 @48=~Dragonborn~
 @49=~Attack of the Dragon~
+
+//This is an interesting idea that's at least sound in theory.  My revised version is below.
 @50=~Dragonborn (Dragon Disciple)
-
+School: Universal
 Level: Epic
-Target: Self
-Length: 1 minute
+Range: 0
+Duration: 1 minute
+Casting Time: Instant
+Area of Effect: Caster
+Saving Throw: None
 
-The Dragon Disciple has reached full self-awareness, he can now truly feel the dragon's blood coursing through his veins and he wants to control the power that comes with it.
-Thanks to this ability he's finally able to unleash the greatest power his blood has to offer. He can polymorph himslef into a red dragon for the duration of the spell, obtaining the following bonuses:
-Immunity to fire and magic weapons +4 or lower; charm, fear, feeble mind, diseases and confusion.
-Doubled hit points and strength increased to 23;
-Ranged damage reduced by 75%;
-Bludgeoning damage reduced by 50%;
-Slashing Damage reduced by 75%;
-He will cause fear every round to the surrounding enemies.
-His claws are considered weapon +5, cause 2d10 +5 slashing damage and throw the enemies away.
-He cannot use other metamorphosis spells while Dragonborn effects are still active.~
+By harnessing your draconic heritage, you can polymorph yourself into a lesser red dragon for 1 minute with the below abilities.  With this ability active, you can toggle your natural form as an innate ability and are unaffected by other shapeshifting abilities.
+
+EFFECTS:
+-Immunity (+100% resistance) to fire.
+
++25% resistance to missile damage & slashing damage and +50% resistance to crushing damage.
+
+-Immunity to charm, confusion, disesae, fear, and feeblemind.
+
+-Can only be hurt by weapons of +5 or above.
+
+-You are surrounded by an aura of dragon fear.  Each round, all foes within 30' must save vs. spell at a -4 penalty or be panicked for 10 rounds.
+
+-Your maximum HP doubles.
+
+-Your STR is set to 23.
+
+-Your weapons becomes dragon claws that count as +5 magic weapons and deal 2d10+5 slashing damage per hit.~
+
+//                           //
+//This is my revised version.//
+//                           //
+
+//This version transforms the caster into a red dragon with full red dragon stats minus its casting.
+/*Dragonborn
+School: Universal
+Level: Epic
+Range: 0
+Duration: 8 hours
+Casting Time: Instant
+Area of Effect: Caster
+Saving Throw: None
+
+STR 25, DEX 15, CON 15; AC -13, THAC0 -6 base
+3 Attacks Per Round, 1d12+25 Slashing Damage (Claw +5)
+Immune to weapons lower than +3 enchantment
+Immune to backstab, charm, domination, entangle, grease, hold, paralyzation, sleep, slow, stun, & web effects
+Magic Resistance 65%
+Fire Resistance 110%
+Crushing, Slashing, Piercing, & Missile Resistance 30%
+Spellcasting is allowed in this form
+
+Also in this form, you gain access to these abilities:
+Dragon Fear: All foes within 16’ of you who fail a save vs. spell at -6 panic for 1 turn.  Ignores magic resistance.
+
+Lower Fire Resistance: All foes within 16’ of you who fail a save vs. spell at -6 take a -50% penalty to their fire resistance for 10 rounds.  This effect ignores magic resistance and doesn’t stack with itself on a subject.
+
+Red Dragon Breath: Deals 10d10 fire damage in a 7.5’ cone with a save vs. breath at -6 for half damage.  Ignores magic resistance.
+
+Wing Buffet: All foes within 16’ of you are knocked back for 2 seconds, take 2d8+25 crushing damage, and are knocked unconscious for 1 round.  You also produce a Zone of Sweet Air around you for 1 round.  This effect ignores magic resistance, and a save vs. breath at -10 negates the unconsciousness but none of the other effects from Wing Buffet.~
+*/
